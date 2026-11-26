@@ -30,6 +30,12 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.conteudo-cinza{
+    background-color: #d9d9d9;
+    padding: 24px 20px;
+}
+
 .apresentacao-foto{
     display: flex;
     justify-content: center;
@@ -105,4 +111,73 @@
 .contato-lista a{
     text-decoration: underline;
     color: #111111;
+}
+
+/* Desktop: coloca as 2 imagens lado a lado */
+@media (min-width: 768px) {
+    .galeria-dupla {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .link-voltar {
+        font-size: 18px;
+    }
+    .topo-conteudo {
+        padding: 24px 40px;
+    }
+    .menu-icone {
+        width: 24px;
+        height: 24px;
+    }
+    .logo {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .apresentacao  {
+        display: flex;
+        align-items: center;
+        padding: 0px 0px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .apresentacao-foto img {
+        width: 218px;
+        height: 287px;
+        margin-right: 24px;
+        display: block;
+    }
+
+    .apresentacao-texto {
+        flex: 1;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .apresentacao-texto h1 {
+        font-size: 40px;
+        font-weight: normal;
+        margin-bottom: 16px;
+    }
+
+    .apresentacao-texto p {
+        font-size: 40px;
+        font-weight: normal;
+        margin-bottom: 16px;
+    }
+
+     .conteudo-cinza {
+        padding: 24px 40px;
+    }
+
+    .conteudo-cinza h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+
+    .conteudo-cinza p {
+        font-size: 16px;
+    }
+
 }
