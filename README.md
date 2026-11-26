@@ -1,5 +1,8 @@
 # Portifolio - Anderson
-Portifolio pessoal desenvolvido em HTML e CSS puro para a disciplina de PPSI I (FATEC São Roque - Prof Fernando Leonid).\
-Inicio com escopo do Figma mobile\
-Feito Figma desktop\
-Download de icones e inicio do Html - foto de perfil, h1 e divs\
+
+Trabalho P2: Portfólio Pessoal Responsivo
+Instituição: FATEC São Roque
+Disciplina: Padrões de Projeto de Sítios Internet I
+Professor: Fernando Leonid
+Data de entrega: 25 de novembro de 2026
+Modalidade: Individual
